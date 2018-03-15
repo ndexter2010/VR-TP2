@@ -1,0 +1,6 @@
+version: '2'
+services:
+  mininet:
+    image: ndexter/vr-tp2
+    container_name: mininet
+    privileged: true
