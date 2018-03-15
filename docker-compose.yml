@@ -4,3 +4,5 @@ services:
     image: ndexter/vr-tp2
     container_name: mininet
     privileged: true
+    volumes:
+      - /lib/modules:/lib/modules
