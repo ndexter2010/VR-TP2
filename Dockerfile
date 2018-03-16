@@ -9,6 +9,8 @@ RUN apt-get update \
     wireshark \
     tcpdump \
     git \
+    net-tools \
+    iputils-ping \
     && chmod +x /ENTRYPOINT.sh
 
 
