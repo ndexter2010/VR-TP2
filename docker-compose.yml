@@ -1,8 +1,19 @@
-version: '2'
+version: '3'
 services:
   mininet:
+    build:
+      context: .
     image: ndexter/vr-tp2
-    container_name: mininet
+    tty: true
+    network_mode: "bridge"
     privileged: true
+    environment:
+      DISPLAY: "$DISPLAY"
     volumes:
-      - /lib/modules:/lib/modules
+     - /tmp/.X11-unix:/tmp/.X11-unix
+     - /lib/modules:/lib/modules
+
+
+
+
+     
