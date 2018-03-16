@@ -4,6 +4,7 @@ services:
     build:
       context: .
     image: ndexter/vr-tp2
+    container_name: mininet
     tty: true
     network_mode: "bridge"
     privileged: true
@@ -12,8 +13,3 @@ services:
     volumes:
      - /tmp/.X11-unix:/tmp/.X11-unix
      - /lib/modules:/lib/modules
-
-
-
-
-     
