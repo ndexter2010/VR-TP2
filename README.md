@@ -6,9 +6,13 @@ Criação de um Dockerfile para a geração automática de uma Docker image com 
 - tcpdump
 - Wireshark
 
-# Uso de mininet e tcpdump
+
+
+# Uso do Mininet e Tcpdump
 
 $ docker-compose run --rm mininet
+
+
 
 
 # Uso do Wireshark com Gui
