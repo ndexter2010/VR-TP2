@@ -10,7 +10,7 @@ Criação de um Dockerfile para a geração automática de uma Docker image com 
 
 # Uso do Mininet e Tcpdump
 
-$ docker-compose run --rm mininet
+$ docker-compose up -d
 
 
 
