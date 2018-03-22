@@ -8,17 +8,10 @@ Criação de um Dockerfile para a geração automática de uma Docker image com 
 
 
 
-## Uso do Mininet e Tcpdump
+## Como usar?
+
+Para utilizar a ferramenta basta executar o seguinte comando:
 
 ```bash
 $ docker-compose up -d
-```
-
-
-
-
-## Uso do Wireshark com Gui
-
-```bash
-$ docker run -ti --net=host --privileged -v $HOME:/root:ro -e XAUTHORITY=/root/.Xauthority -e DISPLAY=$DISPLAY ndexter/vr-tp2
 ```
